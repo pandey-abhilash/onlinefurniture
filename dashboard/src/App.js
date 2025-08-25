@@ -4,6 +4,7 @@ import RegisterPage from './authPages/registerPage';
 import LoginPage from './authPages/loginPage';
 import { Route, Routes } from "react-router-dom"
 
+
 const AuthRouter = () => {
   return <Routes>
     <Route path='/' element={<LoginPage />} />
